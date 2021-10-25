@@ -7,7 +7,6 @@ import { SearchOutlined, ScheduleOutlined, LikeOutlined } from "@ant-design/icon
 import "react-lazy-load-image-component/src/effects/blur.css";
 import "./App.css";
 import "antd/dist/antd.css";
-import logo from "./assets/logo.png";
 
 function App() {
   const url = "https://5f50ca542b5a260016e8bfb0.mockapi.io/api/v1/movies";
@@ -87,9 +86,7 @@ function App() {
     <div className="row main-container">
       <div className="navbar-container">
         <div className="row pt-3">
-          <div className="col-6">
-            <img src={logo} alt="logo" height="100px" width="120px" />
-          </div>
+          <div className="col-6"></div>
           <div className="d-flex justify-content-end col-6 pt-3">
             <Space direction="hirozontal">
               <RangePicker className="rangepicker" onChange={onChangeDate} />
